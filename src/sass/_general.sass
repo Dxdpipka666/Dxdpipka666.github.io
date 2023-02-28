@@ -1,5 +1,4 @@
 
-
 .nav_1
   height: 50px
   background-color: #212121
@@ -21,14 +20,14 @@
     font-weight: 300
     color: #fff
     &:hover
-      color:$color_2
-      transition: 1s 
+      color: $color_2
+      transition: 1s
 
   &_item
     border-right: 2px dotted black
     padding-right: 28px
     &:last-child
-       border-right: none 
+      border-right: none
 
 .subheader
   height: 84px
@@ -64,9 +63,8 @@
     text-align: right
     line-height: 12px
     &:hover
-      color:$color_2
-      transition: 1s 
-    
+      color: $color_2
+      transition: 1s
 
   &_btn
     width: 172px
@@ -81,8 +79,6 @@
     color: #fff
     text-transform: uppercase
     @include btn_hover
-
-  
 
 .promo
   min-height: 800px
@@ -130,36 +126,38 @@
     @include btn_hover
 
 .label
-    margin: 0 auto
-    width: 112px
-    height: 24px
-    background-color: #000
-    font-size: 11px
-    font-weight: 100
-    text-align: center
-    color: #fff
-    text-transform: uppercase
-    padding-top: 6px
-    &_white
+  margin: 0 auto
+  width: 112px
+  height: 24px
+  background-color: #000
+  font-size: 11px
+  font-weight: 100
+  text-align: center
+  color: #fff
+  text-transform: uppercase
+  padding-top: 6px
+  &:hover
+  
+  &_white
+    background-color: #fff
+    color: #070716
+    &_world
+      width: 76px
+      height: 24px
       background-color: #fff
       color: #070716
-      &_world
-        width: 76px
-        height: 24px
-        background-color: #fff
-        color: #070716
-    
-.title
-    text-align: center
-    margin-top: 38px
-    font-size: 38px
-    font-weight: bold
-    color: #222
-    text-transform: uppercase
 
-    &_white
-      color: #fff
-      margin: 32px 0 0 0 
+.title
+  text-align: center
+  margin-top: 38px
+  font-size: 38px
+  font-weight: bold
+  color: #222
+  text-transform: uppercase
+
+  &_white
+    color: #fff
+    margin: 32px 0 0 0
 
 .advantage
   min-height: 900px
@@ -191,7 +189,7 @@
     line-height: 1.4
     text-align: justify
     color: #202020
-    width: 380px
+    width: 341px
     min-height: 141px
     margin: 0 0 35px 26px
 
@@ -216,23 +214,23 @@
     padding-top: 92px
     position: relative
     &_1
-      background: url('../img/medium/order.jpg') center center/cover no-repeat  
+      background: url('../img/medium/order.jpg') center center/cover no-repeat
     &_2
-      background: url('../img/medium/reliable.jpg') center center/cover no-repeat  
+      background: url('../img/medium/reliable.jpg') center center/cover no-repeat
     &_3
-      background: url('../img/medium/cost.jpg') center center/cover no-repeat  
+      background: url('../img/medium/cost.jpg') center center/cover no-repeat
     &_4
-      background: url('../img/medium/pay.jpg') center center/cover no-repeat  
+      background: url('../img/medium/pay.jpg') center center/cover no-repeat
     &_5
-      background: url('../img/medium/about_us.jpg') center center/cover no-repeat  
+      background: url('../img/medium/about_us.jpg') center center/cover no-repeat
     &_6
-      background: url('../img/medium/cost_travel.jpg') center center/cover no-repeat  
+      background: url('../img/medium/cost_travel.jpg') center center/cover no-repeat
     &_subtitle
-        font-size: 24px
-        text-align: center
-        color: #fff
-        text-transform: uppercase
-        font-weight: 400
+      font-size: 24px
+      text-align: center
+      color: #fff
+      text-transform: uppercase
+      font-weight: 400
     &_plus
       display: flex
       justify-content: center
@@ -252,7 +250,7 @@
         display: block
         width: 14px
         height: 2px
-        background-color:$color_1
+        background-color: $color_1
       &:after
         content: ''
         position: absolute
@@ -261,14 +259,14 @@
         display: block
         width: 2px
         height: 14px
-        background-color:$color_1
+        background-color: $color_1
       &:hover
         &:before, &:after
-          background-color:$color_2
-          transition: 1s 
-          
+          background-color: $color_2
+          transition: 1s
+
 .car
-  height: 869px 
+  height: 869px
   &_white
     background: url('../img/medium/mobile.png') center center/cover no-repeat
   &_subheader
@@ -284,7 +282,7 @@
     margin-top: 56px
   &_background
     height: 499px
-    background-color: #070716 
+    background-color: #070716
     position: absolute
     width: 100%
     z-index: 1
@@ -298,8 +296,7 @@
     text-align: center
     color: #222
     margin: 0 auto
- 
-    
+
 .require
   padding: 68px 0 84px 0
   &_block
@@ -311,7 +308,7 @@
     font-weight: 400
     color: #1ca8c3
   &_list
-    list-style: none 
+    list-style: none
     padding-left: 50px
     margin-top: 22px
     li
@@ -330,7 +327,7 @@
         top: 3px
         width: 21px
         height: 20px
-        background: url('../icons/medium/yes.svg') center center/cover no-repeat 
+        background: url('../icons/medium/yes.svg') center center/cover no-repeat
   &_descr
     color: #1ca8c3
     margin-top: 25px
@@ -342,13 +339,12 @@
     .require_list
       li
         &:before
-          background: url('../icons/medium/yes_red.svg') center center/cover no-repeat 
+          background: url('../icons/medium/yes_red.svg') center center/cover no-repeat
 .world
   height: 717px
-  padding: 49px 0  
+  padding: 49px 0
   background: url('../img/bottom/world.jpg') center center no-repeat
   background-color: #080816
-
 
   &_subheader
     font-size: 17px
@@ -369,8 +365,8 @@
     color: #1fbad6
     text-transform: uppercase
     &:hover
-      color:$color_2
-      transition: 1s 
+      color: $color_2
+      transition: 1s
 .footer
   height: 148px
   padding: 14px 0 39px 0
@@ -397,7 +393,7 @@
     color: #070716
     margin-top: 32px
     &:hover
-      color: $color_2 
+      color: $color_2
   &_link_1
     display: block
     text-decoration: none
@@ -425,7 +421,7 @@
     &_round
       width: 32px
       height: 32px
-      border-radius:50% 
+      border-radius: 50%
       background-color: #070716
       margin-left: 9px
       text-decoration: none
@@ -435,7 +431,7 @@
     i
       color: #fff
       text-decoration: none
-  &_store 
+  &_store
     display: flex
     position: absolute
     right: 23px
@@ -444,10 +440,9 @@
       display: block
       margin-left: 7px
 
-
 .line_black
-    background-color: #070716
-    height: 8px
-  
+  background-color: #070716
+  height: 8px
+
 .xs-visible
   display: none

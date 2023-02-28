@@ -9,11 +9,12 @@
             font-size: 50px
     .advantage
         padding: 71px 0px 65px 20px
-        &_text
-            width: 300px
+        // &_text
+
         &_wrapper
             padding-left: 30px
-            margin-right: 0
+            margin: 0px
+
     .mobile
         &_item
             width: 300px
@@ -21,8 +22,8 @@
         &_link_1
             padding-right: 18px
         &_link
-            padding-right: 14px  
-       
+            padding-right: 14px
+
 @media (max-width: 991px)
     .menu
         padding: 13px 0px
@@ -31,7 +32,7 @@
         &_link
             font-size: 13px
     .subheader
-        &_logo  
+        &_logo
             width: 100%
         &_official
             font-size: 11px
@@ -47,6 +48,8 @@
         &_item_subtitle
             font-size: 18px
 
+    .title
+        font-size: 32px
     .promo
         &_header
             font-size: 40px
@@ -55,6 +58,7 @@
     .advantage
         padding: 37px 0px 20px 0px
         &_text
+            margin-top: 30px
             width: 300px
         &_wrapper
             align-items: center
@@ -67,7 +71,7 @@
             display: block
             position: absolute
             top: 24px
-            right: 70px 
+            right: 70px
         &_store_img
             margin-top: 5px
 @media (max-width: 767px)
@@ -86,27 +90,27 @@
         &_active
             left: 0
         &_item
-            padding-right:0
+            padding-right: 0
             border: none
             margin: 10px
         &_link
             font-size: 19px
     .promo
-        padding-bottom: 50px 
+        padding-bottom: 50px
     .mobile
         &_item
             width: 300px
         &_item_subtitle
             font-size: 23px
- 
+
     .footer
         &_store
             display: block
             position: absolute
             top: 24px
-            right: 50px 
+            right: 50px
         &_store_img
-            margin-top: 5px   
+            margin-top: 5px
         &_social
             left: 7px
     .hamburger
@@ -126,7 +130,7 @@
             transition: 0.5s all
         &_active
             span
-                margin-bottom:-2PX
+                margin-bottom: -2PX
                 &:nth-child(1)
                     transform: translateY(3px) rotate(-45deg)
                 &:nth-child(2)
@@ -146,29 +150,38 @@
             text-align: center
             color: #fff
             font-weight: 400
-            margin:0 
-            
+            margin: 0
+
         &_btn
             display: block
             height: 35px
             width: 180px
             margin: 0 auto
             margin-top: 8px
-       
+    .advantage
+        &_wrapper_1
+            display: flex
+            flex-direction: column
+            margin: 0 auto
+            align-items: center
+        &_wrapper
+            padding-left: 0px
+        &_text
+            margin-left: 0px
+            width: 350px
+
     .promo
         &_header
-           line-height: 45px
+            line-height: 45px
     .title
         font-size: 25px
         &_white
-           display: none 
+            display: none
     .car
-        height: 650px 
+        height: 650px
         &_subheader
             display: none
- 
 
-    
 @media (max-width: 575px)
 
     * hover
@@ -198,13 +211,13 @@
             margin-top: 6px
     .promo
         min-height: 400px
-        padding: 143px 0 35px 0 
+        padding: 143px 0 35px 0
         &_descr
             display: none
         &_header
             font-size: 30px
             font-weight: 900
-            padding:0 36px
+            padding: 0 36px
             line-height: 35px
         &_subheader
             font-size: 20px
@@ -225,14 +238,13 @@
         &_wrapper
             margin: 0
             padding: 0
-            
-        padding: 22px 0 36px 0
+
         &_circle
             width: 100px
             height: 100px
-            margin: 26px 0 25px 0 
+            margin: 26px 0 25px 0
         &_text
-            margin: 0 15px 
+            margin: 0 15px
             font-size: 15px
             display: block
             line-height: 1.4
@@ -241,9 +253,9 @@
         margin: 0
         margin-top: 15px
         &_white
-           display: none 
+            display: none
     .mobile
-        padding-top: 22px 
+        padding-top: 22px
         &_item_subtitle
             font-size: 18px
         &_item
@@ -260,8 +272,8 @@
         &_subheader
             display: none
         &_background
-           height: 450px
-           padding: 25px 0 33px 0
+            height: 450px
+            padding: 25px 0 33px 0
         &_text
             font-size: 17px
             font-weight: 300
@@ -273,7 +285,7 @@
             height: 300px
             height: 190px
     .require
-        padding: 470px 0 26px 0 
+        padding: 470px 0 26px 0
         &_title
             margin-left: 15px
             font-size: 16px
@@ -290,7 +302,7 @@
         &_descr
             margin-left: 15px
         br
-           display: none
+            display: none
     .world
         height: 360px
         padding: 25px 0 30px 0
@@ -299,8 +311,8 @@
         &_subheader
             margin-top: 10px
     .title
-       &_white
-        display: block
+        &_white
+            display: block
     .footer
         height: 180px
         &_social
@@ -315,8 +327,8 @@
             right: 10px
             img
                 height: 20px
-                width: 70px 
-                    
+                width: 70px
+
         &_link
             margin-top: 22px
             font-size: 14px
@@ -325,5 +337,3 @@
             padding-right: 10px
         &_menu
             padding-left: 10px
-
-
